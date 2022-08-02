@@ -4,7 +4,7 @@ LABEL author: abdullahkimrigh
 COPY . /var/www
 WORKDIR /var/www
 
-EXPOSE 3000
+EXPOSE 8080
 
 RUN npm install
 
